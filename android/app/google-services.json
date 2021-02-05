@@ -1,0 +1,97 @@
+{
+    "project_info": {
+      "project_number": "471976904732",
+      "project_id": "benedak-259b3",
+      "storage_bucket": "benedak-259b3.appspot.com"
+    },
+    "client": [
+      {
+        "client_info": {
+          "mobilesdk_app_id": "1:471976904732:android:22760072d70a59c66a77d9",
+          "android_client_info": {
+            "package_name": "com.syapps.admin"
+          }
+        },
+        "oauth_client": [
+          {
+            "client_id": "471976904732-45pac242trobggjhat6dkkaqe8u27cip.apps.googleusercontent.com",
+            "client_type": 3
+          }
+        ],
+        "api_key": [
+          {
+            "current_key": "AIzaSyC5WtCcG3KjGy4d48cjgnWwu0PQ_2ipxus"
+          }
+        ],
+        "services": {
+          "appinvite_service": {
+            "other_platform_oauth_client": [
+              {
+                "client_id": "471976904732-45pac242trobggjhat6dkkaqe8u27cip.apps.googleusercontent.com",
+                "client_type": 3
+              }
+            ]
+          }
+        }
+      },
+      {
+        "client_info": {
+          "mobilesdk_app_id": "1:471976904732:android:97721435542092256a77d9",
+          "android_client_info": {
+            "package_name": "com.syapps.chef"
+          }
+        },
+        "oauth_client": [
+          {
+            "client_id": "471976904732-45pac242trobggjhat6dkkaqe8u27cip.apps.googleusercontent.com",
+            "client_type": 3
+          }
+        ],
+        "api_key": [
+          {
+            "current_key": "AIzaSyC5WtCcG3KjGy4d48cjgnWwu0PQ_2ipxus"
+          }
+        ],
+        "services": {
+          "appinvite_service": {
+            "other_platform_oauth_client": [
+              {
+                "client_id": "471976904732-45pac242trobggjhat6dkkaqe8u27cip.apps.googleusercontent.com",
+                "client_type": 3
+              }
+            ]
+          }
+        }
+      },
+      {
+        "client_info": {
+          "mobilesdk_app_id": "1:471976904732:android:2dac1c5cf2eb42616a77d9",
+          "android_client_info": {
+            "package_name": "com.syapps.custApp"
+          }
+        },
+        "oauth_client": [
+          {
+            "client_id": "471976904732-45pac242trobggjhat6dkkaqe8u27cip.apps.googleusercontent.com",
+            "client_type": 3
+          }
+        ],
+        "api_key": [
+          {
+            "current_key": "AIzaSyC5WtCcG3KjGy4d48cjgnWwu0PQ_2ipxus"
+          }
+        ],
+        "services": {
+          "appinvite_service": {
+            "other_platform_oauth_client": [
+              {
+                "client_id": "471976904732-45pac242trobggjhat6dkkaqe8u27cip.apps.googleusercontent.com",
+                "client_type": 3
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "configuration_version": "1"
+  }
