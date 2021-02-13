@@ -140,11 +140,13 @@ class _LoginState extends State<Login> {
                                           setState(() {
                                             load = true;
                                           });
+                                          // تسجيل الدخول بواسطة الايميل وكلمة المرور
                                           UserCredential userCredential =
                                               await FirebaseAuth.instance
                                                   .signInWithEmailAndPassword(
                                                       email: _email.text,
                                                       password: _password.text);
+                                          // التحقق اذا كان الاسم الخاص به شيف ام لا
 
                                           if (userCredential.user.displayName ==
                                               "chef") {
@@ -171,6 +173,8 @@ class _LoginState extends State<Login> {
                                                 backgroundColor: Colors.red,
                                                 textColor: Colors.white,
                                                 fontSize: 16.0);
+                                            // في حال كان غير مؤهل سيسجل خروج
+
                                             await FirebaseAuth.instance
                                                 .signOut();
                                           }
@@ -183,6 +187,7 @@ class _LoginState extends State<Login> {
                                             load = false;
                                           });
                                           print(e);
+                                          // اظهار للمستخدم الاخطاء الواردة من الباك اند في حال وقوع اي اخطاء
 
                                           if (e
                                               .toString()
