@@ -1,3 +1,4 @@
+import 'package:chef/widgets/drawer.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -13,6 +14,9 @@ class _HomeScreenState extends State<HomeScreen> {
         textDirection: TextDirection.rtl,
         child: SafeArea(
           child: Scaffold(
+            drawer: Drawer(
+              child: Drawerr(),
+            ),
             appBar: AppBar(
               centerTitle: true,
               backgroundColor: Colors.lightBlue[800],
